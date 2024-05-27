@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-button {
+            background-color: #000000; /* Color de fondo inicial negro */
+            color: #ffffff; /* Color de texto inicial blanco */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .custom-button:hover {
+            background-color: #0000FF; /* Color de fondo en hover azul */
+            color: #ffffff; /* Color de texto en hover blanco */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex items-center justify-center h-screen bg-emerald-500">
+        <div class="p-8 bg-white rounded-lg shadow-lg">
+            <h1 class="text-5xl font-bold text-center text-emerald-600">SE HA ENVIADO CON ÉXITO</h1>
+            <div class="flex justify-center mt-6">
+                <a
+                    class="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 custom-button"
+                    href="/desicion.html"
+                >
+                    Regresar
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

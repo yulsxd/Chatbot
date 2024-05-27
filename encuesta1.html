@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-button {
+            background-color: #000000; /* Color de fondo inicial negro */
+            color: #ffffff; /* Color de texto inicial blanco */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .custom-button:hover {
+            background-color: #0000FF; /* Color de fondo en hover azul */
+            color: #ffffff; /* Color de texto en hover blanco */
+        }
+    </style>
+</head>
+<body>
+    <div class="max-w-md mx-auto space-y-6">
+        <h2 class="text-2xl font-bold">Cuestionario de Hábitos de Estudio:</h2>
+        <form class="space-y-4">
+            <div>
+                <h3 class="text-lg font-semibold">1. ¿Cómo calificarías tu organización del tiempo para estudiar?</h3>
+                <input
+                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    placeholder="Escribe tu respuesta aquí"
+                />
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold">2. ¿Qué técnicas de estudio encuentras más efectivas para ti?</h3>
+                <input
+                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    placeholder="Escribe tu respuesta aquí"
+                />
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold">3. ¿Dónde sueles estudiar con mayor frecuencia y por qué?</h3>
+                <input
+                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    placeholder="Escribe tu respuesta aquí"
+                />
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold">4. ¿Qué tan seguido revisas y repasas el material aprendido?</h3>
+                <input
+                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    placeholder="Escribe tu respuesta aquí"
+                />
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold">5. ¿Te resulta fácil concentrarte mientras estudias?</h3>
+                <input
+                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    placeholder="Escribe tu respuesta aquí"
+                />
+            </div>
+            <a href="/envio.html">
+                <button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 custom-button"
+                    type="button">
+                    Enviar
+                </button>
+            </a>
+            <a href="/desicion.html">
+                <button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 custom-button"
+                    type="button">
+                    Regresar
+                </button>
+            </a>
+        </form>
+    </div>
+</body>
+</html>
